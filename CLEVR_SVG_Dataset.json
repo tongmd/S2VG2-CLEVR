@@ -1,0 +1,1078 @@
+[
+  {
+    "id": "CLEVR-SVG-000",
+    "svg": "<svg width=\"300\" height=\"300\">\n  <rect x=\"217\" y=\"207\" width=\"50\" height=\"50\" fill=\"orange\" />\n  <rect x=\"211\" y=\"189\" width=\"50\" height=\"50\" fill=\"green\" />\n  <rect x=\"202\" y=\"210\" width=\"20\" height=\"20\" fill=\"cyan\" />\n  <rect x=\"124\" y=\"59\" width=\"20\" height=\"20\" fill=\"blue\" />\n</svg>",
+    "question": "What is the color of the object furthest to the left in the entire image?",
+    "gt_answer": "blue",
+    "type": "spatial_relation",
+    "raw_objects": [
+      {
+        "id": 0,
+        "color": "orange",
+        "shape": "rect",
+        "size": "large",
+        "x": 242,
+        "y": 232
+      },
+      {
+        "id": 1,
+        "color": "green",
+        "shape": "rect",
+        "size": "large",
+        "x": 236,
+        "y": 214
+      },
+      {
+        "id": 2,
+        "color": "cyan",
+        "shape": "rect",
+        "size": "small",
+        "x": 212,
+        "y": 220
+      },
+      {
+        "id": 3,
+        "color": "blue",
+        "shape": "rect",
+        "size": "small",
+        "x": 134,
+        "y": 69
+      }
+    ]
+  },
+  {
+    "id": "CLEVR-SVG-001",
+    "svg": "<svg width=\"300\" height=\"300\">\n  <polygon points=\"187,236 162,286 212,286\" fill=\"orange\" />\n  <circle cx=\"192\" cy=\"227\" r=\"10\" fill=\"green\" />\n  <circle cx=\"206\" cy=\"115\" r=\"25\" fill=\"green\" />\n  <rect x=\"51\" y=\"39\" width=\"50\" height=\"50\" fill=\"red\" />\n  <rect x=\"46\" y=\"226\" width=\"50\" height=\"50\" fill=\"blue\" />\n  <circle cx=\"147\" cy=\"204\" r=\"10\" fill=\"green\" />\n  <polygon points=\"236,10 211,60 261,60\" fill=\"red\" />\n</svg>",
+    "question": "How many yellow circles are there?",
+    "gt_answer": "0",
+    "type": "counting",
+    "raw_objects": [
+      {
+        "id": 0,
+        "color": "orange",
+        "shape": "triangle",
+        "size": "large",
+        "x": 187,
+        "y": 261
+      },
+      {
+        "id": 1,
+        "color": "green",
+        "shape": "circle",
+        "size": "small",
+        "x": 192,
+        "y": 227
+      },
+      {
+        "id": 2,
+        "color": "green",
+        "shape": "circle",
+        "size": "large",
+        "x": 206,
+        "y": 115
+      },
+      {
+        "id": 3,
+        "color": "red",
+        "shape": "rect",
+        "size": "large",
+        "x": 76,
+        "y": 64
+      },
+      {
+        "id": 4,
+        "color": "blue",
+        "shape": "rect",
+        "size": "large",
+        "x": 71,
+        "y": 251
+      },
+      {
+        "id": 5,
+        "color": "green",
+        "shape": "circle",
+        "size": "small",
+        "x": 147,
+        "y": 204
+      },
+      {
+        "id": 6,
+        "color": "red",
+        "shape": "triangle",
+        "size": "large",
+        "x": 236,
+        "y": 35
+      }
+    ]
+  },
+  {
+    "id": "CLEVR-SVG-002",
+    "svg": "<svg width=\"300\" height=\"300\">\n  <rect x=\"160\" y=\"197\" width=\"20\" height=\"20\" fill=\"cyan\" />\n  <circle cx=\"268\" cy=\"240\" r=\"10\" fill=\"magenta\" />\n  <circle cx=\"77\" cy=\"84\" r=\"25\" fill=\"magenta\" />\n  <circle cx=\"107\" cy=\"248\" r=\"25\" fill=\"red\" />\n  <rect x=\"236\" y=\"179\" width=\"20\" height=\"20\" fill=\"magenta\" />\n  <circle cx=\"262\" cy=\"241\" r=\"25\" fill=\"cyan\" />\n</svg>",
+    "question": "How many green triangles are there?",
+    "gt_answer": "0",
+    "type": "counting",
+    "raw_objects": [
+      {
+        "id": 0,
+        "color": "cyan",
+        "shape": "rect",
+        "size": "small",
+        "x": 170,
+        "y": 207
+      },
+      {
+        "id": 1,
+        "color": "magenta",
+        "shape": "circle",
+        "size": "small",
+        "x": 268,
+        "y": 240
+      },
+      {
+        "id": 2,
+        "color": "magenta",
+        "shape": "circle",
+        "size": "large",
+        "x": 77,
+        "y": 84
+      },
+      {
+        "id": 3,
+        "color": "red",
+        "shape": "circle",
+        "size": "large",
+        "x": 107,
+        "y": 248
+      },
+      {
+        "id": 4,
+        "color": "magenta",
+        "shape": "rect",
+        "size": "small",
+        "x": 246,
+        "y": 189
+      },
+      {
+        "id": 5,
+        "color": "cyan",
+        "shape": "circle",
+        "size": "large",
+        "x": 262,
+        "y": 241
+      }
+    ]
+  },
+  {
+    "id": "CLEVR-SVG-003",
+    "svg": "<svg width=\"300\" height=\"300\">\n  <polygon points=\"235,222 210,272 260,272\" fill=\"blue\" />\n  <rect x=\"95\" y=\"24\" width=\"50\" height=\"50\" fill=\"cyan\" />\n  <rect x=\"44\" y=\"234\" width=\"20\" height=\"20\" fill=\"orange\" />\n  <polygon points=\"198,226 173,276 223,276\" fill=\"yellow\" />\n  <polygon points=\"32,76 22,96 42,96\" fill=\"orange\" />\n</svg>",
+    "question": "What is the color of the object furthest to the left in the entire image?",
+    "gt_answer": "orange",
+    "type": "spatial_relation",
+    "raw_objects": [
+      {
+        "id": 0,
+        "color": "blue",
+        "shape": "triangle",
+        "size": "large",
+        "x": 235,
+        "y": 247
+      },
+      {
+        "id": 1,
+        "color": "cyan",
+        "shape": "rect",
+        "size": "large",
+        "x": 120,
+        "y": 49
+      },
+      {
+        "id": 2,
+        "color": "orange",
+        "shape": "rect",
+        "size": "small",
+        "x": 54,
+        "y": 244
+      },
+      {
+        "id": 3,
+        "color": "yellow",
+        "shape": "triangle",
+        "size": "large",
+        "x": 198,
+        "y": 251
+      },
+      {
+        "id": 4,
+        "color": "orange",
+        "shape": "triangle",
+        "size": "small",
+        "x": 32,
+        "y": 86
+      }
+    ]
+  },
+  {
+    "id": "CLEVR-SVG-004",
+    "svg": "<svg width=\"300\" height=\"300\">\n  <polygon points=\"57,224 47,244 67,244\" fill=\"blue\" />\n  <rect x=\"127\" y=\"11\" width=\"50\" height=\"50\" fill=\"cyan\" />\n  <circle cx=\"66\" cy=\"92\" r=\"25\" fill=\"cyan\" />\n  <polygon points=\"54,56 44,76 64,76\" fill=\"orange\" />\n  <circle cx=\"181\" cy=\"191\" r=\"10\" fill=\"blue\" />\n  <rect x=\"165\" y=\"34\" width=\"50\" height=\"50\" fill=\"cyan\" />\n</svg>",
+    "question": "How many magenta rects are there?",
+    "gt_answer": "0",
+    "type": "counting",
+    "raw_objects": [
+      {
+        "id": 0,
+        "color": "blue",
+        "shape": "triangle",
+        "size": "small",
+        "x": 57,
+        "y": 234
+      },
+      {
+        "id": 1,
+        "color": "cyan",
+        "shape": "rect",
+        "size": "large",
+        "x": 152,
+        "y": 36
+      },
+      {
+        "id": 2,
+        "color": "cyan",
+        "shape": "circle",
+        "size": "large",
+        "x": 66,
+        "y": 92
+      },
+      {
+        "id": 3,
+        "color": "orange",
+        "shape": "triangle",
+        "size": "small",
+        "x": 54,
+        "y": 66
+      },
+      {
+        "id": 4,
+        "color": "blue",
+        "shape": "circle",
+        "size": "small",
+        "x": 181,
+        "y": 191
+      },
+      {
+        "id": 5,
+        "color": "cyan",
+        "shape": "rect",
+        "size": "large",
+        "x": 190,
+        "y": 59
+      }
+    ]
+  },
+  {
+    "id": "CLEVR-SVG-005",
+    "svg": "<svg width=\"300\" height=\"300\">\n  <polygon points=\"223,69 198,119 248,119\" fill=\"yellow\" />\n  <rect x=\"228\" y=\"73\" width=\"50\" height=\"50\" fill=\"cyan\" />\n  <polygon points=\"221,24 211,44 231,44\" fill=\"magenta\" />\n  <rect x=\"233\" y=\"35\" width=\"50\" height=\"50\" fill=\"magenta\" />\n</svg>",
+    "question": "What is the color of the object furthest to the left in the entire image?",
+    "gt_answer": "magenta",
+    "type": "spatial_relation",
+    "raw_objects": [
+      {
+        "id": 0,
+        "color": "yellow",
+        "shape": "triangle",
+        "size": "large",
+        "x": 223,
+        "y": 94
+      },
+      {
+        "id": 1,
+        "color": "cyan",
+        "shape": "rect",
+        "size": "large",
+        "x": 253,
+        "y": 98
+      },
+      {
+        "id": 2,
+        "color": "magenta",
+        "shape": "triangle",
+        "size": "small",
+        "x": 221,
+        "y": 34
+      },
+      {
+        "id": 3,
+        "color": "magenta",
+        "shape": "rect",
+        "size": "large",
+        "x": 258,
+        "y": 60
+      }
+    ]
+  },
+  {
+    "id": "CLEVR-SVG-006",
+    "svg": "<svg width=\"300\" height=\"300\">\n  <rect x=\"140\" y=\"159\" width=\"50\" height=\"50\" fill=\"magenta\" />\n  <polygon points=\"101,175 91,195 111,195\" fill=\"red\" />\n  <rect x=\"84\" y=\"60\" width=\"20\" height=\"20\" fill=\"red\" />\n  <circle cx=\"83\" cy=\"53\" r=\"25\" fill=\"blue\" />\n  <rect x=\"62\" y=\"194\" width=\"50\" height=\"50\" fill=\"cyan\" />\n  <circle cx=\"167\" cy=\"109\" r=\"25\" fill=\"green\" />\n</svg>",
+    "question": "How many red rects are there?",
+    "gt_answer": "1",
+    "type": "counting",
+    "raw_objects": [
+      {
+        "id": 0,
+        "color": "magenta",
+        "shape": "rect",
+        "size": "large",
+        "x": 165,
+        "y": 184
+      },
+      {
+        "id": 1,
+        "color": "red",
+        "shape": "triangle",
+        "size": "small",
+        "x": 101,
+        "y": 185
+      },
+      {
+        "id": 2,
+        "color": "red",
+        "shape": "rect",
+        "size": "small",
+        "x": 94,
+        "y": 70
+      },
+      {
+        "id": 3,
+        "color": "blue",
+        "shape": "circle",
+        "size": "large",
+        "x": 83,
+        "y": 53
+      },
+      {
+        "id": 4,
+        "color": "cyan",
+        "shape": "rect",
+        "size": "large",
+        "x": 87,
+        "y": 219
+      },
+      {
+        "id": 5,
+        "color": "green",
+        "shape": "circle",
+        "size": "large",
+        "x": 167,
+        "y": 109
+      }
+    ]
+  },
+  {
+    "id": "CLEVR-SVG-007",
+    "svg": "<svg width=\"300\" height=\"300\">\n  <circle cx=\"120\" cy=\"154\" r=\"10\" fill=\"magenta\" />\n  <polygon points=\"136,189 126,209 146,209\" fill=\"magenta\" />\n  <polygon points=\"191,191 166,241 216,241\" fill=\"magenta\" />\n  <rect x=\"89\" y=\"248\" width=\"20\" height=\"20\" fill=\"magenta\" />\n  <rect x=\"199\" y=\"250\" width=\"20\" height=\"20\" fill=\"magenta\" />\n  <rect x=\"212\" y=\"79\" width=\"20\" height=\"20\" fill=\"cyan\" />\n  <polygon points=\"193,121 168,171 218,171\" fill=\"blue\" />\n</svg>",
+    "question": "How many orange circles are there?",
+    "gt_answer": "0",
+    "type": "counting",
+    "raw_objects": [
+      {
+        "id": 0,
+        "color": "magenta",
+        "shape": "circle",
+        "size": "small",
+        "x": 120,
+        "y": 154
+      },
+      {
+        "id": 1,
+        "color": "magenta",
+        "shape": "triangle",
+        "size": "small",
+        "x": 136,
+        "y": 199
+      },
+      {
+        "id": 2,
+        "color": "magenta",
+        "shape": "triangle",
+        "size": "large",
+        "x": 191,
+        "y": 216
+      },
+      {
+        "id": 3,
+        "color": "magenta",
+        "shape": "rect",
+        "size": "small",
+        "x": 99,
+        "y": 258
+      },
+      {
+        "id": 4,
+        "color": "magenta",
+        "shape": "rect",
+        "size": "small",
+        "x": 209,
+        "y": 260
+      },
+      {
+        "id": 5,
+        "color": "cyan",
+        "shape": "rect",
+        "size": "small",
+        "x": 222,
+        "y": 89
+      },
+      {
+        "id": 6,
+        "color": "blue",
+        "shape": "triangle",
+        "size": "large",
+        "x": 193,
+        "y": 146
+      }
+    ]
+  },
+  {
+    "id": "CLEVR-SVG-008",
+    "svg": "<svg width=\"300\" height=\"300\">\n  <rect x=\"162\" y=\"110\" width=\"50\" height=\"50\" fill=\"blue\" />\n  <circle cx=\"82\" cy=\"74\" r=\"10\" fill=\"yellow\" />\n  <rect x=\"45\" y=\"118\" width=\"20\" height=\"20\" fill=\"purple\" />\n  <rect x=\"28\" y=\"89\" width=\"50\" height=\"50\" fill=\"blue\" />\n</svg>",
+    "question": "What is the color of the object furthest to the left in the entire image?",
+    "gt_answer": "blue",
+    "type": "spatial_relation",
+    "raw_objects": [
+      {
+        "id": 0,
+        "color": "blue",
+        "shape": "rect",
+        "size": "large",
+        "x": 187,
+        "y": 135
+      },
+      {
+        "id": 1,
+        "color": "yellow",
+        "shape": "circle",
+        "size": "small",
+        "x": 82,
+        "y": 74
+      },
+      {
+        "id": 2,
+        "color": "purple",
+        "shape": "rect",
+        "size": "small",
+        "x": 55,
+        "y": 128
+      },
+      {
+        "id": 3,
+        "color": "blue",
+        "shape": "rect",
+        "size": "large",
+        "x": 53,
+        "y": 114
+      }
+    ]
+  },
+  {
+    "id": "CLEVR-SVG-009",
+    "svg": "<svg width=\"300\" height=\"300\">\n  <rect x=\"78\" y=\"163\" width=\"20\" height=\"20\" fill=\"cyan\" />\n  <rect x=\"116\" y=\"95\" width=\"20\" height=\"20\" fill=\"cyan\" />\n  <rect x=\"181\" y=\"132\" width=\"50\" height=\"50\" fill=\"green\" />\n  <rect x=\"170\" y=\"205\" width=\"50\" height=\"50\" fill=\"red\" />\n  <polygon points=\"53,176 43,196 63,196\" fill=\"purple\" />\n</svg>",
+    "question": "How many yellow triangles are there?",
+    "gt_answer": "0",
+    "type": "counting",
+    "raw_objects": [
+      {
+        "id": 0,
+        "color": "cyan",
+        "shape": "rect",
+        "size": "small",
+        "x": 88,
+        "y": 173
+      },
+      {
+        "id": 1,
+        "color": "cyan",
+        "shape": "rect",
+        "size": "small",
+        "x": 126,
+        "y": 105
+      },
+      {
+        "id": 2,
+        "color": "green",
+        "shape": "rect",
+        "size": "large",
+        "x": 206,
+        "y": 157
+      },
+      {
+        "id": 3,
+        "color": "red",
+        "shape": "rect",
+        "size": "large",
+        "x": 195,
+        "y": 230
+      },
+      {
+        "id": 4,
+        "color": "purple",
+        "shape": "triangle",
+        "size": "small",
+        "x": 53,
+        "y": 186
+      }
+    ]
+  },
+  {
+    "id": "CLEVR-SVG-010",
+    "svg": "<svg width=\"300\" height=\"300\">\n  <circle cx=\"144\" cy=\"215\" r=\"25\" fill=\"cyan\" />\n  <rect x=\"15\" y=\"245\" width=\"50\" height=\"50\" fill=\"yellow\" />\n  <circle cx=\"244\" cy=\"71\" r=\"25\" fill=\"purple\" />\n  <polygon points=\"257,44 247,64 267,64\" fill=\"blue\" />\n</svg>",
+    "question": "How many purple circles are there?",
+    "gt_answer": "1",
+    "type": "counting",
+    "raw_objects": [
+      {
+        "id": 0,
+        "color": "cyan",
+        "shape": "circle",
+        "size": "large",
+        "x": 144,
+        "y": 215
+      },
+      {
+        "id": 1,
+        "color": "yellow",
+        "shape": "rect",
+        "size": "large",
+        "x": 40,
+        "y": 270
+      },
+      {
+        "id": 2,
+        "color": "purple",
+        "shape": "circle",
+        "size": "large",
+        "x": 244,
+        "y": 71
+      },
+      {
+        "id": 3,
+        "color": "blue",
+        "shape": "triangle",
+        "size": "small",
+        "x": 257,
+        "y": 54
+      }
+    ]
+  },
+  {
+    "id": "CLEVR-SVG-011",
+    "svg": "<svg width=\"300\" height=\"300\">\n  <rect x=\"30\" y=\"89\" width=\"50\" height=\"50\" fill=\"magenta\" />\n  <rect x=\"119\" y=\"176\" width=\"50\" height=\"50\" fill=\"yellow\" />\n  <circle cx=\"111\" cy=\"162\" r=\"10\" fill=\"red\" />\n  <polygon points=\"204,101 179,151 229,151\" fill=\"magenta\" />\n  <circle cx=\"258\" cy=\"76\" r=\"25\" fill=\"red\" />\n  <rect x=\"96\" y=\"214\" width=\"20\" height=\"20\" fill=\"green\" />\n</svg>",
+    "question": "What is the color of the object furthest to the left in the entire image?",
+    "gt_answer": "magenta",
+    "type": "spatial_relation",
+    "raw_objects": [
+      {
+        "id": 0,
+        "color": "magenta",
+        "shape": "rect",
+        "size": "large",
+        "x": 55,
+        "y": 114
+      },
+      {
+        "id": 1,
+        "color": "yellow",
+        "shape": "rect",
+        "size": "large",
+        "x": 144,
+        "y": 201
+      },
+      {
+        "id": 2,
+        "color": "red",
+        "shape": "circle",
+        "size": "small",
+        "x": 111,
+        "y": 162
+      },
+      {
+        "id": 3,
+        "color": "magenta",
+        "shape": "triangle",
+        "size": "large",
+        "x": 204,
+        "y": 126
+      },
+      {
+        "id": 4,
+        "color": "red",
+        "shape": "circle",
+        "size": "large",
+        "x": 258,
+        "y": 76
+      },
+      {
+        "id": 5,
+        "color": "green",
+        "shape": "rect",
+        "size": "small",
+        "x": 106,
+        "y": 224
+      }
+    ]
+  },
+  {
+    "id": "CLEVR-SVG-012",
+    "svg": "<svg width=\"300\" height=\"300\">\n  <rect x=\"235\" y=\"212\" width=\"50\" height=\"50\" fill=\"magenta\" />\n  <circle cx=\"165\" cy=\"115\" r=\"25\" fill=\"cyan\" />\n  <circle cx=\"145\" cy=\"210\" r=\"10\" fill=\"red\" />\n  <polygon points=\"134,164 109,214 159,214\" fill=\"orange\" />\n  <polygon points=\"132,33 122,53 142,53\" fill=\"cyan\" />\n  <circle cx=\"100\" cy=\"211\" r=\"25\" fill=\"green\" />\n  <polygon points=\"170,110 145,160 195,160\" fill=\"red\" />\n</svg>",
+    "question": "Consider the small circle located around x=145, y=210. What is its color?",
+    "gt_answer": "red",
+    "type": "attribute_query",
+    "raw_objects": [
+      {
+        "id": 0,
+        "color": "magenta",
+        "shape": "rect",
+        "size": "large",
+        "x": 260,
+        "y": 237
+      },
+      {
+        "id": 1,
+        "color": "cyan",
+        "shape": "circle",
+        "size": "large",
+        "x": 165,
+        "y": 115
+      },
+      {
+        "id": 2,
+        "color": "red",
+        "shape": "circle",
+        "size": "small",
+        "x": 145,
+        "y": 210
+      },
+      {
+        "id": 3,
+        "color": "orange",
+        "shape": "triangle",
+        "size": "large",
+        "x": 134,
+        "y": 189
+      },
+      {
+        "id": 4,
+        "color": "cyan",
+        "shape": "triangle",
+        "size": "small",
+        "x": 132,
+        "y": 43
+      },
+      {
+        "id": 5,
+        "color": "green",
+        "shape": "circle",
+        "size": "large",
+        "x": 100,
+        "y": 211
+      },
+      {
+        "id": 6,
+        "color": "red",
+        "shape": "triangle",
+        "size": "large",
+        "x": 170,
+        "y": 135
+      }
+    ]
+  },
+  {
+    "id": "CLEVR-SVG-013",
+    "svg": "<svg width=\"300\" height=\"300\">\n  <circle cx=\"81\" cy=\"131\" r=\"10\" fill=\"cyan\" />\n  <rect x=\"39\" y=\"171\" width=\"50\" height=\"50\" fill=\"red\" />\n  <circle cx=\"131\" cy=\"48\" r=\"10\" fill=\"yellow\" />\n  <circle cx=\"244\" cy=\"119\" r=\"25\" fill=\"yellow\" />\n  <rect x=\"117\" y=\"229\" width=\"20\" height=\"20\" fill=\"magenta\" />\n  <rect x=\"106\" y=\"126\" width=\"50\" height=\"50\" fill=\"blue\" />\n</svg>",
+    "question": "How many orange rects are there?",
+    "gt_answer": "0",
+    "type": "counting",
+    "raw_objects": [
+      {
+        "id": 0,
+        "color": "cyan",
+        "shape": "circle",
+        "size": "small",
+        "x": 81,
+        "y": 131
+      },
+      {
+        "id": 1,
+        "color": "red",
+        "shape": "rect",
+        "size": "large",
+        "x": 64,
+        "y": 196
+      },
+      {
+        "id": 2,
+        "color": "yellow",
+        "shape": "circle",
+        "size": "small",
+        "x": 131,
+        "y": 48
+      },
+      {
+        "id": 3,
+        "color": "yellow",
+        "shape": "circle",
+        "size": "large",
+        "x": 244,
+        "y": 119
+      },
+      {
+        "id": 4,
+        "color": "magenta",
+        "shape": "rect",
+        "size": "small",
+        "x": 127,
+        "y": 239
+      },
+      {
+        "id": 5,
+        "color": "blue",
+        "shape": "rect",
+        "size": "large",
+        "x": 131,
+        "y": 151
+      }
+    ]
+  },
+  {
+    "id": "CLEVR-SVG-014",
+    "svg": "<svg width=\"300\" height=\"300\">\n  <polygon points=\"176,197 166,217 186,217\" fill=\"red\" />\n  <circle cx=\"221\" cy=\"249\" r=\"25\" fill=\"yellow\" />\n  <circle cx=\"208\" cy=\"260\" r=\"10\" fill=\"purple\" />\n  <rect x=\"88\" y=\"110\" width=\"20\" height=\"20\" fill=\"magenta\" />\n  <polygon points=\"270,20 260,40 280,40\" fill=\"yellow\" />\n  <polygon points=\"236,110 226,130 246,130\" fill=\"magenta\" />\n</svg>",
+    "question": "Consider the small circle located around x=208, y=260. What is its color?",
+    "gt_answer": "purple",
+    "type": "attribute_query",
+    "raw_objects": [
+      {
+        "id": 0,
+        "color": "red",
+        "shape": "triangle",
+        "size": "small",
+        "x": 176,
+        "y": 207
+      },
+      {
+        "id": 1,
+        "color": "yellow",
+        "shape": "circle",
+        "size": "large",
+        "x": 221,
+        "y": 249
+      },
+      {
+        "id": 2,
+        "color": "purple",
+        "shape": "circle",
+        "size": "small",
+        "x": 208,
+        "y": 260
+      },
+      {
+        "id": 3,
+        "color": "magenta",
+        "shape": "rect",
+        "size": "small",
+        "x": 98,
+        "y": 120
+      },
+      {
+        "id": 4,
+        "color": "yellow",
+        "shape": "triangle",
+        "size": "small",
+        "x": 270,
+        "y": 30
+      },
+      {
+        "id": 5,
+        "color": "magenta",
+        "shape": "triangle",
+        "size": "small",
+        "x": 236,
+        "y": 120
+      }
+    ]
+  },
+  {
+    "id": "CLEVR-SVG-015",
+    "svg": "<svg width=\"300\" height=\"300\">\n  <rect x=\"145\" y=\"149\" width=\"20\" height=\"20\" fill=\"orange\" />\n  <circle cx=\"266\" cy=\"139\" r=\"25\" fill=\"purple\" />\n  <circle cx=\"161\" cy=\"254\" r=\"25\" fill=\"green\" />\n  <circle cx=\"118\" cy=\"32\" r=\"25\" fill=\"cyan\" />\n</svg>",
+    "question": "What is the size of the green circle located at approximately x=161, y=254?",
+    "gt_answer": "large",
+    "type": "attribute_query",
+    "raw_objects": [
+      {
+        "id": 0,
+        "color": "orange",
+        "shape": "rect",
+        "size": "small",
+        "x": 155,
+        "y": 159
+      },
+      {
+        "id": 1,
+        "color": "purple",
+        "shape": "circle",
+        "size": "large",
+        "x": 266,
+        "y": 139
+      },
+      {
+        "id": 2,
+        "color": "green",
+        "shape": "circle",
+        "size": "large",
+        "x": 161,
+        "y": 254
+      },
+      {
+        "id": 3,
+        "color": "cyan",
+        "shape": "circle",
+        "size": "large",
+        "x": 118,
+        "y": 32
+      }
+    ]
+  },
+  {
+    "id": "CLEVR-SVG-016",
+    "svg": "<svg width=\"300\" height=\"300\">\n  <polygon points=\"59,234 49,254 69,254\" fill=\"red\" />\n  <polygon points=\"258,194 233,244 283,244\" fill=\"cyan\" />\n  <rect x=\"31\" y=\"225\" width=\"50\" height=\"50\" fill=\"cyan\" />\n  <polygon points=\"237,231 212,281 262,281\" fill=\"cyan\" />\n  <polygon points=\"49,126 24,176 74,176\" fill=\"magenta\" />\n  <polygon points=\"100,99 75,149 125,149\" fill=\"orange\" />\n  <rect x=\"107\" y=\"60\" width=\"50\" height=\"50\" fill=\"blue\" />\n</svg>",
+    "question": "What is the color of the object furthest to the left in the entire image?",
+    "gt_answer": "magenta",
+    "type": "spatial_relation",
+    "raw_objects": [
+      {
+        "id": 0,
+        "color": "red",
+        "shape": "triangle",
+        "size": "small",
+        "x": 59,
+        "y": 244
+      },
+      {
+        "id": 1,
+        "color": "cyan",
+        "shape": "triangle",
+        "size": "large",
+        "x": 258,
+        "y": 219
+      },
+      {
+        "id": 2,
+        "color": "cyan",
+        "shape": "rect",
+        "size": "large",
+        "x": 56,
+        "y": 250
+      },
+      {
+        "id": 3,
+        "color": "cyan",
+        "shape": "triangle",
+        "size": "large",
+        "x": 237,
+        "y": 256
+      },
+      {
+        "id": 4,
+        "color": "magenta",
+        "shape": "triangle",
+        "size": "large",
+        "x": 49,
+        "y": 151
+      },
+      {
+        "id": 5,
+        "color": "orange",
+        "shape": "triangle",
+        "size": "large",
+        "x": 100,
+        "y": 124
+      },
+      {
+        "id": 6,
+        "color": "blue",
+        "shape": "rect",
+        "size": "large",
+        "x": 132,
+        "y": 85
+      }
+    ]
+  },
+  {
+    "id": "CLEVR-SVG-017",
+    "svg": "<svg width=\"300\" height=\"300\">\n  <rect x=\"131\" y=\"223\" width=\"50\" height=\"50\" fill=\"purple\" />\n  <rect x=\"139\" y=\"36\" width=\"50\" height=\"50\" fill=\"purple\" />\n  <polygon points=\"105,218 80,268 130,268\" fill=\"purple\" />\n  <rect x=\"159\" y=\"47\" width=\"20\" height=\"20\" fill=\"magenta\" />\n  <rect x=\"240\" y=\"82\" width=\"20\" height=\"20\" fill=\"green\" />\n  <polygon points=\"33,98 8,148 58,148\" fill=\"yellow\" />\n</svg>",
+    "question": "How many magenta circles are there?",
+    "gt_answer": "0",
+    "type": "counting",
+    "raw_objects": [
+      {
+        "id": 0,
+        "color": "purple",
+        "shape": "rect",
+        "size": "large",
+        "x": 156,
+        "y": 248
+      },
+      {
+        "id": 1,
+        "color": "purple",
+        "shape": "rect",
+        "size": "large",
+        "x": 164,
+        "y": 61
+      },
+      {
+        "id": 2,
+        "color": "purple",
+        "shape": "triangle",
+        "size": "large",
+        "x": 105,
+        "y": 243
+      },
+      {
+        "id": 3,
+        "color": "magenta",
+        "shape": "rect",
+        "size": "small",
+        "x": 169,
+        "y": 57
+      },
+      {
+        "id": 4,
+        "color": "green",
+        "shape": "rect",
+        "size": "small",
+        "x": 250,
+        "y": 92
+      },
+      {
+        "id": 5,
+        "color": "yellow",
+        "shape": "triangle",
+        "size": "large",
+        "x": 33,
+        "y": 123
+      }
+    ]
+  },
+  {
+    "id": "CLEVR-SVG-018",
+    "svg": "<svg width=\"300\" height=\"300\">\n  <rect x=\"120\" y=\"177\" width=\"50\" height=\"50\" fill=\"orange\" />\n  <rect x=\"109\" y=\"150\" width=\"20\" height=\"20\" fill=\"orange\" />\n  <polygon points=\"107,240 97,260 117,260\" fill=\"magenta\" />\n  <rect x=\"168\" y=\"160\" width=\"50\" height=\"50\" fill=\"green\" />\n  <rect x=\"119\" y=\"219\" width=\"50\" height=\"50\" fill=\"yellow\" />\n  <rect x=\"67\" y=\"114\" width=\"20\" height=\"20\" fill=\"purple\" />\n</svg>",
+    "question": "Consider the small triangle located around x=107, y=250. What is its color?",
+    "gt_answer": "magenta",
+    "type": "attribute_query",
+    "raw_objects": [
+      {
+        "id": 0,
+        "color": "orange",
+        "shape": "rect",
+        "size": "large",
+        "x": 145,
+        "y": 202
+      },
+      {
+        "id": 1,
+        "color": "orange",
+        "shape": "rect",
+        "size": "small",
+        "x": 119,
+        "y": 160
+      },
+      {
+        "id": 2,
+        "color": "magenta",
+        "shape": "triangle",
+        "size": "small",
+        "x": 107,
+        "y": 250
+      },
+      {
+        "id": 3,
+        "color": "green",
+        "shape": "rect",
+        "size": "large",
+        "x": 193,
+        "y": 185
+      },
+      {
+        "id": 4,
+        "color": "yellow",
+        "shape": "rect",
+        "size": "large",
+        "x": 144,
+        "y": 244
+      },
+      {
+        "id": 5,
+        "color": "purple",
+        "shape": "rect",
+        "size": "small",
+        "x": 77,
+        "y": 124
+      }
+    ]
+  },
+  {
+    "id": "CLEVR-SVG-019",
+    "svg": "<svg width=\"300\" height=\"300\">\n  <circle cx=\"133\" cy=\"210\" r=\"10\" fill=\"cyan\" />\n  <rect x=\"5\" y=\"38\" width=\"50\" height=\"50\" fill=\"orange\" />\n  <circle cx=\"33\" cy=\"41\" r=\"10\" fill=\"yellow\" />\n  <rect x=\"33\" y=\"233\" width=\"20\" height=\"20\" fill=\"cyan\" />\n  <circle cx=\"193\" cy=\"154\" r=\"25\" fill=\"magenta\" />\n  <rect x=\"78\" y=\"190\" width=\"20\" height=\"20\" fill=\"blue\" />\n</svg>",
+    "question": "Consider the small rect located around x=43, y=243. What is its color?",
+    "gt_answer": "cyan",
+    "type": "attribute_query",
+    "raw_objects": [
+      {
+        "id": 0,
+        "color": "cyan",
+        "shape": "circle",
+        "size": "small",
+        "x": 133,
+        "y": 210
+      },
+      {
+        "id": 1,
+        "color": "orange",
+        "shape": "rect",
+        "size": "large",
+        "x": 30,
+        "y": 63
+      },
+      {
+        "id": 2,
+        "color": "yellow",
+        "shape": "circle",
+        "size": "small",
+        "x": 33,
+        "y": 41
+      },
+      {
+        "id": 3,
+        "color": "cyan",
+        "shape": "rect",
+        "size": "small",
+        "x": 43,
+        "y": 243
+      },
+      {
+        "id": 4,
+        "color": "magenta",
+        "shape": "circle",
+        "size": "large",
+        "x": 193,
+        "y": 154
+      },
+      {
+        "id": 5,
+        "color": "blue",
+        "shape": "rect",
+        "size": "small",
+        "x": 88,
+        "y": 200
+      }
+    ]
+  }
+]

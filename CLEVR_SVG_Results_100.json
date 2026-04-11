@@ -1,0 +1,713 @@
+{
+  "accuracy": 0.9108910891089109,
+  "total": 101,
+  "details": [
+    {
+      "id": "CLEVR-SVG-000",
+      "type": "counting",
+      "gt_answer": "0",
+      "predicted": "0",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-001",
+      "type": "counting",
+      "gt_answer": "0",
+      "predicted": "0",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-002",
+      "type": "attribute_query",
+      "gt_answer": "cyan",
+      "predicted": "cyan",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-003",
+      "type": "counting",
+      "gt_answer": "0",
+      "predicted": "0",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-004",
+      "type": "spatial_relation",
+      "gt_answer": "magenta",
+      "predicted": "magenta",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-005",
+      "type": "counting",
+      "gt_answer": "0",
+      "predicted": "0",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-006",
+      "type": "attribute_query",
+      "gt_answer": "small",
+      "predicted": "small",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-007",
+      "type": "counting",
+      "gt_answer": "0",
+      "predicted": "0",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-008",
+      "type": "counting",
+      "gt_answer": "0",
+      "predicted": "0",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-009",
+      "type": "counting",
+      "gt_answer": "0",
+      "predicted": "0",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-010",
+      "type": "spatial_relation",
+      "gt_answer": "cyan",
+      "predicted": "error",
+      "is_correct": false
+    },
+    {
+      "id": "CLEVR-SVG-011",
+      "type": "attribute_query",
+      "gt_answer": "magenta",
+      "predicted": "magenta",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-012",
+      "type": "counting",
+      "gt_answer": "0",
+      "predicted": "0",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-013",
+      "type": "spatial_relation",
+      "gt_answer": "cyan",
+      "predicted": "cyan",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-014",
+      "type": "counting",
+      "gt_answer": "1",
+      "predicted": "1",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-015",
+      "type": "spatial_relation",
+      "gt_answer": "purple",
+      "predicted": "purple",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-016",
+      "type": "attribute_query",
+      "gt_answer": "orange",
+      "predicted": "orange",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-017",
+      "type": "attribute_query",
+      "gt_answer": "yellow",
+      "predicted": "yellow",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-018",
+      "type": "counting",
+      "gt_answer": "1",
+      "predicted": "1",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-019",
+      "type": "spatial_relation",
+      "gt_answer": "purple",
+      "predicted": "purple",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-020",
+      "type": "counting",
+      "gt_answer": "0",
+      "predicted": "0",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-021",
+      "type": "counting",
+      "gt_answer": "0",
+      "predicted": "0",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-022",
+      "type": "spatial_relation",
+      "gt_answer": "magenta",
+      "predicted": "magenta",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-023",
+      "type": "spatial_relation",
+      "gt_answer": "green",
+      "predicted": "green",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-024",
+      "type": "counting",
+      "gt_answer": "0",
+      "predicted": "0",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-025",
+      "type": "spatial_relation",
+      "gt_answer": "orange",
+      "predicted": "orange",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-026",
+      "type": "attribute_query",
+      "gt_answer": "purple",
+      "predicted": "purple",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-027",
+      "type": "counting",
+      "gt_answer": "0",
+      "predicted": "0",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-028",
+      "type": "counting",
+      "gt_answer": "1",
+      "predicted": "1",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-029",
+      "type": "attribute_query",
+      "gt_answer": "large",
+      "predicted": "error",
+      "is_correct": false
+    },
+    {
+      "id": "CLEVR-SVG-030",
+      "type": "attribute_query",
+      "gt_answer": "cyan",
+      "predicted": "cyan",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-031",
+      "type": "attribute_query",
+      "gt_answer": "large",
+      "predicted": "large",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-032",
+      "type": "spatial_relation",
+      "gt_answer": "red",
+      "predicted": "red",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-033",
+      "type": "attribute_query",
+      "gt_answer": "yellow",
+      "predicted": "yellow",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-034",
+      "type": "spatial_relation",
+      "gt_answer": "orange",
+      "predicted": "orange",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-035",
+      "type": "spatial_relation",
+      "gt_answer": "blue",
+      "predicted": "error",
+      "is_correct": false
+    },
+    {
+      "id": "CLEVR-SVG-036",
+      "type": "attribute_query",
+      "gt_answer": "large",
+      "predicted": "large",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-037",
+      "type": "counting",
+      "gt_answer": "1",
+      "predicted": "1",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-038",
+      "type": "attribute_query",
+      "gt_answer": "magenta",
+      "predicted": "magenta",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-039",
+      "type": "spatial_relation",
+      "gt_answer": "magenta",
+      "predicted": "magenta",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-040",
+      "type": "counting",
+      "gt_answer": "2",
+      "predicted": "2",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-041",
+      "type": "attribute_query",
+      "gt_answer": "small",
+      "predicted": "small",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-042",
+      "type": "attribute_query",
+      "gt_answer": "orange",
+      "predicted": "orange",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-043",
+      "type": "attribute_query",
+      "gt_answer": "large",
+      "predicted": "large",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-044",
+      "type": "spatial_relation",
+      "gt_answer": "red",
+      "predicted": "red",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-045",
+      "type": "counting",
+      "gt_answer": "0",
+      "predicted": "0",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-046",
+      "type": "spatial_relation",
+      "gt_answer": "yellow",
+      "predicted": "yellow",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-047",
+      "type": "attribute_query",
+      "gt_answer": "small",
+      "predicted": "error",
+      "is_correct": false
+    },
+    {
+      "id": "CLEVR-SVG-048",
+      "type": "attribute_query",
+      "gt_answer": "magenta",
+      "predicted": "magenta",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-049",
+      "type": "counting",
+      "gt_answer": "0",
+      "predicted": "0",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-050",
+      "type": "spatial_relation",
+      "gt_answer": "cyan",
+      "predicted": "cyan",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-051",
+      "type": "counting",
+      "gt_answer": "0",
+      "predicted": "0",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-052",
+      "type": "counting",
+      "gt_answer": "0",
+      "predicted": "0",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-053",
+      "type": "spatial_relation",
+      "gt_answer": "red",
+      "predicted": "red",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-054",
+      "type": "spatial_relation",
+      "gt_answer": "yellow",
+      "predicted": "blue",
+      "is_correct": false
+    },
+    {
+      "id": "CLEVR-SVG-055",
+      "type": "counting",
+      "gt_answer": "1",
+      "predicted": "1",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-056",
+      "type": "counting",
+      "gt_answer": "0",
+      "predicted": "0",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-057",
+      "type": "counting",
+      "gt_answer": "0",
+      "predicted": "0",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-058",
+      "type": "spatial_relation",
+      "gt_answer": "green",
+      "predicted": "green",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-059",
+      "type": "counting",
+      "gt_answer": "0",
+      "predicted": "0",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-060",
+      "type": "counting",
+      "gt_answer": "0",
+      "predicted": "1",
+      "is_correct": false
+    },
+    {
+      "id": "CLEVR-SVG-061",
+      "type": "attribute_query",
+      "gt_answer": "green",
+      "predicted": "green",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-062",
+      "type": "spatial_relation",
+      "gt_answer": "orange",
+      "predicted": "orange",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-063",
+      "type": "counting",
+      "gt_answer": "2",
+      "predicted": "2",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-064",
+      "type": "counting",
+      "gt_answer": "0",
+      "predicted": "0",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-065",
+      "type": "attribute_query",
+      "gt_answer": "small",
+      "predicted": "small",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-066",
+      "type": "counting",
+      "gt_answer": "0",
+      "predicted": "0",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-067",
+      "type": "attribute_query",
+      "gt_answer": "small",
+      "predicted": "small",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-068",
+      "type": "spatial_relation",
+      "gt_answer": "purple",
+      "predicted": "purple",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-069",
+      "type": "spatial_relation",
+      "gt_answer": "cyan",
+      "predicted": "cyan",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-070",
+      "type": "spatial_relation",
+      "gt_answer": "magenta",
+      "predicted": "magenta",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-071",
+      "type": "spatial_relation",
+      "gt_answer": "orange",
+      "predicted": "error",
+      "is_correct": false
+    },
+    {
+      "id": "CLEVR-SVG-072",
+      "type": "attribute_query",
+      "gt_answer": "orange",
+      "predicted": "orange",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-073",
+      "type": "spatial_relation",
+      "gt_answer": "blue",
+      "predicted": "blue",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-074",
+      "type": "attribute_query",
+      "gt_answer": "purple",
+      "predicted": "purple",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-075",
+      "type": "spatial_relation",
+      "gt_answer": "purple",
+      "predicted": "purple",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-076",
+      "type": "counting",
+      "gt_answer": "0",
+      "predicted": "0",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-077",
+      "type": "attribute_query",
+      "gt_answer": "small",
+      "predicted": "small",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-078",
+      "type": "counting",
+      "gt_answer": "1",
+      "predicted": "1",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-079",
+      "type": "spatial_relation",
+      "gt_answer": "red",
+      "predicted": "red",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-080",
+      "type": "attribute_query",
+      "gt_answer": "magenta",
+      "predicted": "magenta",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-081",
+      "type": "counting",
+      "gt_answer": "0",
+      "predicted": "0",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-082",
+      "type": "spatial_relation",
+      "gt_answer": "yellow",
+      "predicted": "yellow",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-083",
+      "type": "counting",
+      "gt_answer": "1",
+      "predicted": "1",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-084",
+      "type": "spatial_relation",
+      "gt_answer": "yellow",
+      "predicted": "yellow",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-085",
+      "type": "attribute_query",
+      "gt_answer": "small",
+      "predicted": "small",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-086",
+      "type": "counting",
+      "gt_answer": "0",
+      "predicted": "0",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-087",
+      "type": "counting",
+      "gt_answer": "0",
+      "predicted": "0",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-088",
+      "type": "attribute_query",
+      "gt_answer": "small",
+      "predicted": "small",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-089",
+      "type": "spatial_relation",
+      "gt_answer": "green",
+      "predicted": "green",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-090",
+      "type": "spatial_relation",
+      "gt_answer": "orange",
+      "predicted": "orange",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-091",
+      "type": "attribute_query",
+      "gt_answer": "purple",
+      "predicted": "purple",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-092",
+      "type": "spatial_relation",
+      "gt_answer": "yellow",
+      "predicted": "error",
+      "is_correct": false
+    },
+    {
+      "id": "CLEVR-SVG-093",
+      "type": "spatial_relation",
+      "gt_answer": "green",
+      "predicted": "green",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-094",
+      "type": "counting",
+      "gt_answer": "0",
+      "predicted": "0",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-095",
+      "type": "counting",
+      "gt_answer": "1",
+      "predicted": "1",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-096",
+      "type": "counting",
+      "gt_answer": "0",
+      "predicted": "0",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-097",
+      "type": "attribute_query",
+      "gt_answer": "large",
+      "predicted": "large",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-098",
+      "type": "attribute_query",
+      "gt_answer": "large",
+      "predicted": "large",
+      "is_correct": true
+    },
+    {
+      "id": "CLEVR-SVG-099",
+      "type": "attribute_query",
+      "gt_answer": "yellow",
+      "predicted": "error",
+      "is_correct": false
+    },
+    {
+      "id": "CLEVR-SVG-100",
+      "type": "attribute_query",
+      "gt_answer": "cyan",
+      "predicted": "cyan",
+      "is_correct": true
+    }
+  ]
+}
