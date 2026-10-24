@@ -1,5 +1,7 @@
 # S2VG2: Human-Readable SVG Generation and Semantic Visual Reasoning
 
+[Latest manuscript (PDF)](https://beyondpixels.stonezhang.com/paper.pdf)
+
 Related paper: [Project page](https://beyondpixels.stonezhang.com/) | [Paper (arXiv)](https://arxiv.org/abs/2311.15543)
 
 This repository contains code, generated datasets, and inference results for evaluating explicit Vision-Language Models on **semantic SVG** representations.
