@@ -1,5 +1,7 @@
 # S2VG2: Human-Readable SVG Generation and Semantic Visual Reasoning
 
+Related paper: [Project page](https://beyondpixels.stonezhang.com/) | [Paper (arXiv)](https://arxiv.org/abs/2311.15543)
+
 This repository contains code, generated datasets, and inference results for evaluating explicit Vision-Language Models on **semantic SVG** representations.
 
 Our core claim is simple: when an image is converted into a compact, human-readable SVG scene graph, frontier language models can reason over the scene directly from text.
